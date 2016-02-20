@@ -10,7 +10,7 @@ function getHeroById(id){
             });
     }
     else{
-        return new Promise.resolve(createHero(id));
+        return Promise.resolve(createHero(id));
     }
 };
 

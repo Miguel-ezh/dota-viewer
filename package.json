@@ -35,6 +35,11 @@
     }
   },
   "devDependencies": {
-    "http-server": "^0.8.5"
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "http-server": "^0.8.5",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
   }
 }
