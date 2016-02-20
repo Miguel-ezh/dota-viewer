@@ -1,7 +1,19 @@
 export default class Hero {
-    constructor(){
-        this.name = h.name;
-        this.image = h.image;
+    constructor(name, file){
+        this.name = name;
+        this.image = file;
     };
 
+    getName(){
+
+    };
+
+    getSmallImage(){
+
+    };
+
+    getBigImage(){
+
+    };
 }
+
